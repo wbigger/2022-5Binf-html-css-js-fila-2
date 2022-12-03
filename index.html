@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fila 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="boards-container">
+        <div id="first-board" class="grid-container">
+            <div data-animal="dog" class="grid-item first-col" ><img src="" alt=""></div>
+            <div data-animal="cat" class="grid-item second-col"><img src="" alt=""></div>
+            <div data-animal="fox" class="grid-item third-col" ><img src="" alt=""></div>
+            <div data-animal="fox" class="grid-item first-col" ><img src="" alt=""></div>
+            <div data-animal="cat" class="grid-item second-col"><img src="" alt=""></div>
+            <div data-animal="dog" class="grid-item third-col" ><img src="" alt=""></div>
+        </div>
+        <div id="second-board" class="grid-container">
+            <div data-animal="cat" class="grid-item first-col" ><img src="" alt=""></div>
+            <div data-animal="cat" class="grid-item second-col"><img src="" alt=""></div>
+            <div data-animal="cat" class="grid-item third-col" ><img src="" alt=""></div>
+            <div data-animal="fox" class="grid-item first-col" ><img src="" alt=""></div>
+            <div data-animal="fox" class="grid-item second-col"><img src="" alt=""></div>
+            <div data-animal="dog" class="grid-item third-col" ><img src="" alt=""></div>
+        </div>
+    </div>
+    <div id="controls">
+        <button id="first-button" onclick="onFirst()">First column</button>
+        <button id="second-button" onclick="onSecond()">Second column</button>
+        <button id="third-button" onclick="onThird()">Third column</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
